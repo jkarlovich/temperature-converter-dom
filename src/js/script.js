@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
        var answer = ((start - 32) * 5/9);
      } else{
       console.log("C");
-      var answer = ((start * (5/9)) + 32);
+      var answer = ((start * (9/5)) + 32);
      }
     console.log(answer);
     var final = Math.floor(answer);
